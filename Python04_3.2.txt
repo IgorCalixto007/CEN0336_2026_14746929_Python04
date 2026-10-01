@@ -1,0 +1,20 @@
+#criando a lista
+>>> my_list2 = ['arvore', 'bola', 'cachorro']
+
+#criando a copia, utilizando o metodo .copy()
+>>> list_copy2 = my_list2.copy()
+
+#imprimindo a lista original
+>>> print(my_list2)
+['arvore', 'bola', 'cachorro']
+
+#nova string adicionada apenas a copia
+>>> list_copy2.append('dado')
+
+#lista orginal nao se modifica
+>>> print(my_list2)
+['arvore', 'bola', 'cachorro']
+
+#somente a cópia
+>>> print(list_copy2)
+['arvore', 'bola', 'cachorro', 'dado']

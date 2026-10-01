@@ -1,0 +1,18 @@
+#Criando a lista
+>>> my_list = ['arvore', 'bola', 'cachorro']
+
+#criando a copia da lista
+>>> list_copy = my_list
+
+#imprimindo a lista sem modificações
+>>> print(my_list)
+['arvore', 'bola', 'cachorro']
+
+#adicionando um novo elemento na copia
+>>> list_copy.append('dado')
+
+#imprimindo a lista original
+>>> print(my_list)
+['arvore', 'bola', 'cachorro', 'dado']
+
+#valor adicionado na lista original, porque foi criada uma variável list_copy e não uma copia
